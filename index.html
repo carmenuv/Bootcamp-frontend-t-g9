@@ -5,38 +5,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bootcamp Frontend G9</title>
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="./css/index.css">
+
+
 </head>
-<body>
-  <header>
-    <a href="#hero">
-      <img src="logo-base2-wpo.png" alt="Base 2 by Web 4B" width="107" height="32"/>
-    </a>
-    <nav>
-      <ul>
-        <li>
-          <a href="#weeks">Semanas</a>
-        </li>
-        <li>
-          <a href="https://github.com/carmenuv" target="_blank" rel="noopener noreferrer">Carmen</a>
-        </li>
-      </ul>
+<body class="body">
+  <header class="header">
+    <nav class="header-nav">
+      <div class="header-nav__container">
+        <a href="#hero" class="header-nav__link-logo-container">
+          <img class="header-nav__link-logo" src="logo-base2-wpo.png" alt="Base 2 by Web 4B" width="107" height="32"/>
+        </a>
+        <nav>
+          <ul class="header-nav__menu-link-list">
+            <li class="header-nav__menu-item">
+              <a href="#learningWeeks" class="header-nav__menu-link">Semanas</a>
+            </li>
+            <li class="header-nav__menu-item">
+              <a class="header-nav__menu-link header-nav__menu-link--active" href="https://github.com/carmenuv" target="_blank" rel="noopener noreferrer">Carmen</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </nav>
   </header>
   <main>
-    <article>
-      <h1>Base 2 by Web 4B</h1>    
+    <article id="hero">
+      <h1 class="title">Base 2 by Web 4B</h1>    
       <h2>Los mejores diseños y desarrollos de páginas web en el Perú</h2>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum totam assumenda repudiandae, nisi odit obcaecati! Quis in nesciunt sapiente, laborum vel facilis rerum quam mollitia, consequatur odio minima reprehenderit. Dolore.
       </p>
-      <a href="#weeks">¡Aprender gratis!</a>
+      <a href="#learningWeeks">¡Aprender gratis!</a>
     </article>
-    <section id="weeks">
+    <section id="learningWeeks">
       <h2>Semanas</h2>
       <nav>
         <ul>
           <li>
-            <a href="#">Semana 1</a>
+            <a href="semana-1/">Semana 1</a>
           </li>
         </ul>
       </nav>
